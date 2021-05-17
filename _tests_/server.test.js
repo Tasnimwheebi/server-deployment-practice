@@ -1,7 +1,6 @@
 'use strict';
 const server = require('../server.js');
 const supertest = require('supertest');
-// const { request } = require('express');
 const request = supertest(server.server);
 
 describe('server',()=>{
@@ -16,8 +15,8 @@ describe('server',()=>{
     expect(response.text).toBe('Welcome to my web App');
   });
   it('should get an error', async()=>{
-const response = await request.get('/bad');
-expect(response.status).toEqual(500);
+    const response = await request.get('/bad');
+    expect(response.status).toEqual(500);
   });
 });
 
