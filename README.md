@@ -9,6 +9,10 @@
 * [Main](https://tasnim-server-deploy-prod.herokuapp.com/)
 * [Dev](https://tasnim-server-deploy-dev.herokuapp.com/)
 
+### action and pull request links :
+* [Action link](https://github.com/Tasnimwheebi/server-deployment-practice/actions)
+* [pull request](https://github.com/Tasnimwheebi/server-deployment-practice/pull/3 )
+
 ## **Setup**
 .env requirements
 * PORT - 3000
